@@ -1,6 +1,8 @@
 import React from 'react';
-import { Container, Navbar, Nav, NavDropdown, Row, Col } from 'react-bootstrap';
-import "../css/Header.css"
+import { Container, Navbar, Nav, NavDropdown, Row, Col, Image, FormControl } from 'react-bootstrap';
+import "../css/Header.css";
+import laptopImg from "../assets/laptopImg.jpg"
+import { BsSearch } from 'react-icons/bs';
 
 const Header = () => {
   return (
@@ -30,8 +32,18 @@ const Header = () => {
             <Col md={6}>
               <p>Modern IT AND Tech Service Creation</p>
               <p>Society excited by cottage private an it esteems.Fully begin on by woundsan.Girl rich in do up or both. At declared in as rejoiced of together.He impression collecting delightful unpleasent by prosperous as on. </p>
-              </Col>
-            <Col md={6}></Col>
+              <div className='center'>
+                <FormControl
+                  type="search"
+                  placeholder="Search For Service : Marketing,Advertisement"
+                  className="searchbar"
+                />
+                <span className="search-icon"><BsSearch /></span>
+              </div>
+            </Col>
+            <Col md={6}>
+              <Image className='laptopImg' src={laptopImg} fluid />
+            </Col>
           </Row>
         </Container>
       </div>

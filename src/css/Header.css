@@ -1,3 +1,22 @@
 .header_outermost_div{
-    background-color: aquamarine;
+    background-color: blue;
+}
+/* .laptopImg{
+    mix-blend-mode:color-dodge
+} */
+.search-icon{
+background-color: palevioletred;
+padding:8px 35px 8px 35px;
+}
+.searchbar{
+ max-width: 300px;
+ border-radius: 0px !important;
+}
+.center{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.nav-link {
+    color:aliceblue !important
 }
