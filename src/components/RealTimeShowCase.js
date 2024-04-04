@@ -8,7 +8,7 @@ const RealTimeShowCase = () => {
             <div>
                 <Row>
                     <Col md={6}>
-                    <Image className='Graph' src={Graph} fluid />
+                    <Image className='Graph' src={Graph} fluid/>
                     </Col>
                     <Col md={6}>
                         <p>Performance App</p>
