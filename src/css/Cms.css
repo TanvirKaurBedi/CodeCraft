@@ -7,3 +7,30 @@
     padding-right: 60px;
     padding-left: 60px;
 }
+.cms_text ,.cms_head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start !important;
+}
+.cms_text p {
+    margin-bottom: 1px !important;
+}
+ul{
+    padding-left: 0px !important;
+    margin-top: 20px !important;
+}
+.cms_text h2{
+    line-height: 1;
+}
+.cms_head{
+    margin-bottom: 20px;
+}
+li{
+    display: flex;
+    align-items: flex-start;
+}
+.more_text{
+    color:#F33A6A;
+    margin-top: 30px;
+}

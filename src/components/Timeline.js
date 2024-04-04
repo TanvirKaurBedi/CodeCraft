@@ -8,8 +8,8 @@ const TimeLine = () => {
     return (
         <>
             <div className="timeline_outermost-div">
-                <p>Timeline</p>
-                <h1>Company Timeline</h1>
+                <p  style={{color:'#F33A6A',fontWeight:'500'}}>Timeline</p>
+                <h1 style={{fontWeight:'bolder',marginBottom:'40px'}}>Company Timeline</h1>
                 <VerticalTimeline lineColor="grey">
                     <VerticalTimelineElement
                         className="vertical-timeline-element"

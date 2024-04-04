@@ -10,7 +10,7 @@ const Header = () => {
       <div className='header_outermost_div'>
         <Container>
           <Row>
-            <Col md={6} className="main_heading center">Domo Tech</Col>
+            <Col md={6} className="main_heading align_start">Domo Tech</Col>
             <Col md={6}>
               <Navbar expand="lg">
                 <Nav className="me-auto">
@@ -30,23 +30,23 @@ const Header = () => {
           </Row>
           <Row>
             <Col md={6}>
-            <div style={{ alignItems: 'left' }}>
-
-                <div className="header_text">
+              <div style={{ alignItems: 'left' }}>
+                <div className="header_texts align_start">
                   <p>Modern IT &</p>
                   <p>Tech Service</p>
                   <p>Creation</p>
-                 </div>
-                
-                <p className="header_subtext">Society excited by cottage private an it esteems.Fully begin on by woundsan.Girl rich in do up or both. At declared in as rejoiced of together.He impression collecting delightful unpleasent by prosperous as on. </p>
+                </div>
+                <div className='align_start text_div'>
+                  <p className="header_subtext">Society excited by cottage private an it esteems.Fully begin on by woundsan.</p><p className="header_subtext">Girl rich in do up or both. At declared in as rejoiced of together.He impression collecting</p> <p className="header_subtext"> delightful unpleasent by prosperous as on. </p>
+                </div>
               </div>
-              <div className='center'>
+              <div className='search_grp'>
                 <FormControl
                   type="search"
                   placeholder="Search For Service : Marketing,Advertisement"
                   className="searchbar"
                 />
-                <span className="search-icon"><BsSearch /></span>
+                <div className="search-icon"><BsSearch /></div>
               </div>
             </Col>
             <Col md={6}>

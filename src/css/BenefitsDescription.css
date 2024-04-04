@@ -1,15 +1,21 @@
-.outermost{
-    padding-top: 50px;
+.benefits_outermost {
+    padding-top: 100px;
     padding-bottom: 150px;
     padding-right: 60px;
     padding-left: 60px;
 }
 
+.benefits_outermost p {
+    font-size: 14px;
+    color: gray;
+}
+
 .globe_icon {
-    background-color: yellow;
-    width: 78px !important;
-    height: 53px !important;
+    background-color: #FDDA0D;
+    width: 75px !important;
+    height: 63px !important;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .center {
@@ -26,15 +32,21 @@
 }
 
 .swap_icon {
-    background-color: pink;
-    width: 78px !important;
-    height: 53px !important;
+    background-color: #F33A6A;
+    width: 75px !important;
+    height: 63px !important;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .cloud_icon {
     background-color: blue;
-    width: 78px !important;
-    height: 53px !important;
-    border-radius: 10px
+    width: 75px !important;
+    height: 63px !important;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.download_btn{
+    margin-top: 34px;
+   padding: 11px 47px !important; 
 }

@@ -1,6 +1,22 @@
-.real_time_outermost_div{
+.real_time_outermost_div {
     padding-top: 50px;
-    padding-bottom: 80px;
+    padding-bottom: 90px;
     padding-right: 60px;
     padding-left: 60px;
+}
+
+.try_btn {
+    background-color: #F33A6A !important;
+    color: white !important;
+    padding: 11px 45px !important;
+    border: none !important;
+    margin-top: 25px;
+}
+
+.real_time_outermost_div p{
+    margin-bottom: 4px;
+}
+.real_time_outermost_div h2{
+    margin-bottom: 10px;
+    line-height:1;
 }
