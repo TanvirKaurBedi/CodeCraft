@@ -1,0 +1,29 @@
+.globe_icon{
+    background-color: yellow;
+    width: 78px !important;
+    height:53px !important;
+    border-radius: 10px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.swap_icon{
+    background-color:pink;
+    width: 78px !important;
+    height:53px !important;
+    border-radius: 10px; 
+}
+.cloud_icon{
+    background-color:blue;
+    width: 78px !important;
+    height:53px !important;
+    border-radius: 10px
+}
