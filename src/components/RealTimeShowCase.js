@@ -1,12 +1,15 @@
 import React from "react";
-import RealTimeCom from "../css/RealTimeCom.css"
-import { Row, Col,Button } from "react-bootstrap"
+import "../css/RealTimeCom.css"
+import { Row, Col, Button,Image } from "react-bootstrap"
+import Graph from "../assets/Graph.png"
 const RealTimeShowCase = () => {
     return (
         <>
             <div>
                 <Row>
-                    <Col md={6}></Col>
+                    <Col md={6}>
+                    <Image className='Graph' src={Graph} fluid />
+                    </Col>
                     <Col md={6}>
                         <p>Performance App</p>
                         <h2>Realtime Application &Fast Server</h2>
