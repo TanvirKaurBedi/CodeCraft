@@ -5,6 +5,7 @@ import CMS from "./components/CMS"
 import RealTimeShowCase from './components/RealTimeShowCase';
 import CompanyStatus from './components/CompanyStatus';
 import Testimonals from './components/Testimonals';
+import TimeLine from "./components/Timeline"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <CMS></CMS>
       <RealTimeShowCase></RealTimeShowCase>
       <CompanyStatus></CompanyStatus>
+      <TimeLine></TimeLine>
       <Testimonals></Testimonals>
     </div>
   );
