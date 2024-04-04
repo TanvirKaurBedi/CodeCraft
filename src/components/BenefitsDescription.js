@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/BenefitsDescription.css"
-import { Row, Col } from 'react-bootstrap'
+import { Row, Col, Button } from 'react-bootstrap'
 import { FaGlobe } from 'react-icons/fa';
 import { BiTransfer } from 'react-icons/bi';
 // import { IoIosAddCircle } from 'react-icons/io';
@@ -19,7 +19,8 @@ const BenefitsDescription = () => {
                             <h2>Powerful Modern Idea</h2>
                         </div>
                         <div>
-                            <p>Drawings me opinions returned absolute in.Otherwise therefore are are unfeeling something.Certain be ye amiable</p>
+                            <p>Drawings me opinions returned absolute in.<br>
+                            </br>Otherwise therefore are are unfeeling <br></br> something.Certain be ye amiable</p>
                         </div>
                     </Col>
                     <Col md={4} className="column">
@@ -30,7 +31,8 @@ const BenefitsDescription = () => {
                             <h2>Easy Data Analytics</h2>
                         </div>
                         <div>
-                            <p>Drawings me opinions returned absolute in.Otherwise therefore are are unfeeling something.Certain be ye amiable</p>
+                            <p>Drawings me opinions returned absolute in.<br>
+                            </br>Otherwise therefore are are unfeeling <br></br> something.Certain be ye amiable</p>
                         </div>
                     </Col>
                     <Col md={4} className="column">
@@ -41,11 +43,18 @@ const BenefitsDescription = () => {
                             <h2>Best Software Developer</h2>
                         </div>
                         <div>
-                            <p>Drawings me opinions returned absolute in.Otherwise therefore are are unfeeling something.Certain be ye amiable</p>
+                            <p>Drawings me opinions returned absolute in.<br>
+                            </br>Otherwise therefore are are unfeeling <br></br> something.Certain be ye amiable</p>
                         </div>
                     </Col>
                 </Row>
-                <Row></Row>
+                <Row>
+                    <Col>
+                        <Button>
+                            Download
+                        </Button>
+                    </Col>
+                </Row>
             </div>
         </>
     )
