@@ -1,3 +1,9 @@
 .img {
     max-width: inherit !important
 }
+.cms_outermost{
+    padding-top: 50px;
+    padding-bottom: 150px;
+    padding-right: 60px;
+    padding-left: 60px;
+}

@@ -1,12 +1,12 @@
 import React from "react"
-import TestimonalStyle from "../css/TestimonalStyle.css"
+import  "../css/TestimonalStyle.css"
 import { Card, Image } from 'react-bootstrap';
 import girlAvatar from "../assets/girlAvatar.jpg"
 import { BsStarFill, BsDot } from 'react-icons/bs';
 const Testimonals = () => {
     return (
         <>
-            <div className="column">
+            <div className="column parent_div">
                 <p>Feedback</p>
                 <h1>What Customers Think About Us?</h1>
                 <Card style={{ width: '53rem' }} className="center">

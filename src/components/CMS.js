@@ -7,7 +7,7 @@ import "../css/Cms.css"
 const CMS = () => {
     return (
         <>
-            <div>
+            <div className="cms_outermost">
                 <Row>
                     <Col md={6}>
                         <h2>Why You Should

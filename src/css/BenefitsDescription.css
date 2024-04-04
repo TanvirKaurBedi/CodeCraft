@@ -1,29 +1,40 @@
-.globe_icon{
+.outermost{
+    padding-top: 50px;
+    padding-bottom: 150px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.globe_icon {
     background-color: yellow;
     width: 78px !important;
-    height:53px !important;
+    height: 53px !important;
     border-radius: 10px;
 }
+
 .center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.column{
+
+.column {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.swap_icon{
-    background-color:pink;
+
+.swap_icon {
+    background-color: pink;
     width: 78px !important;
-    height:53px !important;
-    border-radius: 10px; 
+    height: 53px !important;
+    border-radius: 10px;
 }
-.cloud_icon{
-    background-color:blue;
+
+.cloud_icon {
+    background-color: blue;
     width: 78px !important;
-    height:53px !important;
+    height: 53px !important;
     border-radius: 10px
 }

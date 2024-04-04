@@ -1,10 +1,10 @@
 .header_outermost_div {
     background-color: blue;
+    padding-top: 24px;
+    padding-bottom: 100px;
+    clip-path: polygon(0 -2%, 100% 0, 100% 65%, 0 100%);
 }
 
-/* .laptopImg{
-    mix-blend-mode:color-dodge
-} */
 .search-icon {
     background-color: palevioletred;
     padding: 8px 35px 8px 35px;
@@ -28,24 +28,26 @@
 .main_heading {
     font-size: 20px;
     font-weight: 600;
-    color:white;
+    color: white;
 }
-.main_heading p{
+
+.main_heading p {
     margin-bottom: 0px !important;
 }
+
 .header_text {
     font-size: 52px;
     font-weight: 800;
-    color:white;
+    color: white;
 }
 
-.header_text p{
+.header_text p {
     margin-bottom: 0px !important;
-    color:white;
+    color: white;
 }
 
 .header_subtext {
     font-size: 12px;
     font-weight: 300;
-    color:white;
+    color: white;
 }

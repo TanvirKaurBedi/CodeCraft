@@ -9,7 +9,7 @@ import { AiOutlineCloudUpload } from 'react-icons/ai';
 const BenefitsDescription = () => {
     return (
         <>
-            <div>
+            <div className="outermost">
                 <Row>
                     <Col md={4} className="column">
                         <div className="globe_icon center">

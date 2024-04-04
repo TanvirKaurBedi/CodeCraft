@@ -5,7 +5,7 @@ import Graph from "../assets/Graph.png"
 const RealTimeShowCase = () => {
     return (
         <>
-            <div>
+            <div className="real_time_outermost_div">
                 <Row>
                     <Col md={6}>
                     <Image className='Graph' src={Graph} fluid/>
