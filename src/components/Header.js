@@ -10,7 +10,7 @@ const Header = () => {
       <div className='header_outermost_div'>
         <Container>
           <Row>
-            <Col md={6}>Domo Tech</Col>
+            <Col md={6} className="main_heading center">Domo Tech</Col>
             <Col md={6}>
               <Navbar expand="lg">
                 <Nav className="me-auto">
@@ -30,8 +30,16 @@ const Header = () => {
           </Row>
           <Row>
             <Col md={6}>
-              <p>Modern IT AND Tech Service Creation</p>
-              <p>Society excited by cottage private an it esteems.Fully begin on by woundsan.Girl rich in do up or both. At declared in as rejoiced of together.He impression collecting delightful unpleasent by prosperous as on. </p>
+            <div style={{ alignItems: 'left' }}>
+
+                <div className="header_text">
+                  <p>Modern IT &</p>
+                  <p>Tech Service</p>
+                  <p>Creation</p>
+                 </div>
+                
+                <p className="header_subtext">Society excited by cottage private an it esteems.Fully begin on by woundsan.Girl rich in do up or both. At declared in as rejoiced of together.He impression collecting delightful unpleasent by prosperous as on. </p>
+              </div>
               <div className='center'>
                 <FormControl
                   type="search"

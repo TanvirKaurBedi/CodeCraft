@@ -1,22 +1,47 @@
-.header_outermost_div{
+.header_outermost_div {
     background-color: blue;
 }
+
 /* .laptopImg{
     mix-blend-mode:color-dodge
 } */
-.search-icon{
-background-color: palevioletred;
-padding:8px 35px 8px 35px;
+.search-icon {
+    background-color: palevioletred;
+    padding: 8px 35px 8px 35px;
 }
-.searchbar{
- max-width: 300px;
- border-radius: 0px !important;
+
+.searchbar {
+    max-width: 300px;
+    border-radius: 0px !important;
 }
-.center{
+
+.center {
     display: flex;
-    justify-content:center ;
+    justify-content: center;
     align-items: center;
 }
+
 .nav-link {
-    color:aliceblue !important
+    color: aliceblue !important
+}
+
+.main_heading {
+    font-size: 20px;
+    font-weight: 600;
+}
+.main_heading p{
+    margin-bottom: 0px !important;
+}
+.header_text {
+    font-size: 52px;
+    font-weight: 800;
+}
+
+.header_text p{
+    margin-bottom: 0px !important;
+}
+
+.header_subtext {
+    font-size: 12px;
+    font-weight: 300;
 }
