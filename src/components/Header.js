@@ -1,7 +1,8 @@
 import React from 'react';
 import { Container, Navbar, Nav, NavDropdown, Row, Col, Image, FormControl } from 'react-bootstrap';
 import "../css/Header.css";
-import laptopImg from "../assets/laptopImg.jpg"
+// import laptopImg from "../assets/laptopImg.jpg"
+import macbook from "../assets/macbook.png"
 import { BsSearch } from 'react-icons/bs';
 
 const Header = () => {
@@ -50,7 +51,7 @@ const Header = () => {
               </div>
             </Col>
             <Col md={6}>
-              <Image className='laptopImg' src={laptopImg} fluid />
+              <Image className='laptopImg' src={macbook} fluid />
             </Col>
           </Row>
         </Container>
