@@ -20,11 +20,11 @@ const Header = () => {
                     <NavDropdown.Item href="#reports">Reports</NavDropdown.Item>
                     <NavDropdown.Item href="#action">Actions</NavDropdown.Item>
                   </NavDropdown>
-                  <Nav.Link href="#home">About Us</Nav.Link>
-                  <Nav.Link href="#home">Services</Nav.Link>
-                  <Nav.Link href="#home">Pricing</Nav.Link>
-                  <Nav.Link href="#home">FAQ</Nav.Link>
-                  <Nav.Link href="#home">Contact</Nav.Link>
+                  <Nav.Link href="#about">About Us</Nav.Link>
+                  <Nav.Link href="#services">Services</Nav.Link>
+                  <Nav.Link href="#pricing">Pricing</Nav.Link>
+                  <Nav.Link href="#faq">FAQ</Nav.Link>
+                  <Nav.Link href="#contact">Contact</Nav.Link>
                 </Nav>
               </Navbar>
             </Col>

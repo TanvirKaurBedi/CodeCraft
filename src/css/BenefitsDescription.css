@@ -40,7 +40,7 @@
 }
 
 .cloud_icon {
-    background-color: blue;
+    background-color:#6685FF;
     width: 75px !important;
     height: 63px !important;
     border-radius: 10px;
@@ -49,4 +49,5 @@
 .download_btn{
     margin-top: 34px;
    padding: 11px 47px !important; 
+   background-color: #6685FF !important;
 }

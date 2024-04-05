@@ -8,16 +8,16 @@ const TimeLine = () => {
     return (
         <>
             <div className="timeline_outermost-div">
-                <p  style={{color:'#F33A6A',fontWeight:'500'}}>Timeline</p>
-                <h1 style={{fontWeight:'bolder',marginBottom:'40px'}}>Company Timeline</h1>
+                <p style={{ color: '#F33A6A', fontWeight: '500' }}>Timeline</p>
+                <h1 style={{ fontWeight: 'bolder', marginBottom: '40px' }}>Company Timeline</h1>
                 <VerticalTimeline lineColor="grey">
                     <VerticalTimelineElement
                         className="vertical-timeline-element"
-                        contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                        contentStyle={{ background: '#6685FF', color: '#fff' }}
+                        contentArrowStyle={{ borderRight: '7px solid  #6685FF' }}
                         date="Jan 2018 Company Established"
                         dateClassName="date-black"
-                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                        iconStyle={{ background: '#6685FF', color: '#fff' }}
                         icon={<i className="fas fa-code" />}
                     >
                         <h3 className="vertical-timeline-element-title">Development</h3>
@@ -55,10 +55,10 @@ const TimeLine = () => {
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element"
-                        contentStyle={{ background: 'pink', color: '#fff' }}
-                        contentArrowStyle={{ borderRight: '7px solid  pink' }}
+                        contentStyle={{ background: '#F33A6A', color: '#fff' }}
+                        contentArrowStyle={{ borderRight: '7px solid  #F33A6A' }}
                         date="September 2022 Entering Big Market"
-                        iconStyle={{ background: 'pink', color: '#fff' }}
+                        iconStyle={{ background: '#F33A6A', color: '#fff' }}
                         icon={<i color="yellow" className="fas fa-code" />}
                     >
                         <h3 className="vertical-timeline-element-title">IT Solution</h3>

@@ -14,7 +14,7 @@ const CMS = () => {
                             <h1>Why You Should
                                 Use a </h1>
                             <h1>Content Management </h1>
-                            <h1> System ?</h1>
+                            <h1 style={{textDecoration:'underline',textDecorationColor:"#F33A6A"}}> System ?</h1>
                         </div>
                         <p>Savings her pleased are several started females met.
                             short her</p> <p>among  not being any.Things of judge fruit charms views do. </p> <p>Miles mr an forty along as he.She education get middleton</p> <p> day agreement
