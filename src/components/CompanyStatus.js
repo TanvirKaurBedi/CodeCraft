@@ -1,5 +1,6 @@
 import React from "react"
 import "../css/Status.css"
+import CountUp from 'react-countup';
 
 const CompanyStatus = () => {
     return (
@@ -9,19 +10,19 @@ const CompanyStatus = () => {
                 <p className="subheader_text">Savings her pleased are several started females met. short her not being any.</p>
                 <div className="center">
                     <div>
-                        <p className="status_digits">100%</p>
+                        <p className="status_digits"><CountUp start={1} end={100} duration={5} />%</p>
                         <p>Satisfaction</p>
                     </div>
                     <div>
-                        <p className="status_digits">+122K</p>
+                        <p className="status_digits">+<CountUp start={1} end={122} duration={6} />K</p>
                         <p>Clients</p>
                     </div>
                     <div>
-                        <p className="status_digits">55K</p>
+                        <p className="status_digits"><CountUp start={1} end={55} duration={5} />K</p>
                         <p>properties</p>
                     </div>
                     <div>
-                        <p className="status_digits">3,587+</p>
+                        <p className="status_digits"><CountUp start={1} end={3587} duration={3} />+</p>
                         <p>Rooms</p>
                     </div>
                 </div>

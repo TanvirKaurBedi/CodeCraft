@@ -10,8 +10,8 @@ const Header = () => {
     <>
       <div className='header_outermost_div'>
         <Container>
-          <Row>
-            <Col md={6} className="main_heading align_start">Domo Tech</Col>
+          <Row className='frst_row'>
+            <Col md={6} className="main_heading">Domo Tech</Col>
             <Col md={6}>
               <Navbar expand="lg">
                 <Nav className="me-auto">
